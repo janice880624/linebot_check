@@ -1,0 +1,8 @@
+1. heroku login
+2. git config --global user.name "janice kuo"
+3. git config --global user.email "a0931990604@gmail.com"
+4. git init
+5. heroku git:remote -a check-linebot
+6. git add .
+7. git commit -m "Add code"
+8. git push -f heroku master
