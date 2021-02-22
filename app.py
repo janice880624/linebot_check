@@ -8,8 +8,8 @@ import os
 app = Flask(__name__)
 
 # Channel Access Token
-line_bot_api = LineBotApi('5BsFIT9edUdjd+Ngk8Vm/cCankfVqTno5uQqldDc5yAxxnk3iLTsB99M4MTfIzvTpvUnOAFh5fubtt987BeCslsHpuUxsQho85MZOTc1yn3kWc2C1taEkXCGWdaKN3NxC6SxyQCP+X1mIb/1iBNFGAdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('f9ff6544b64a66cb362260a12dbc9529')
+line_bot_api = LineBotApi('token')
+handler = WebhookHandler('id')
 
 peos = []
 
